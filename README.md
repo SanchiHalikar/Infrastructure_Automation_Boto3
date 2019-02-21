@@ -1,4 +1,4 @@
-#Automate Infrastructure Using Boto3
+# Automate Infrastructure Using Boto3
 Wrote a python script in AWS lambda to automate the Start and Stop of EC2 instances.
 The lambda function is triggered using CloudWatch Events. Cloud Watch Events are scheduled at 12 a.m night to stop the instance and Start(Spin up) again in 9a.m
 Created two other functions to create a snapshot and delete a snapshot.
